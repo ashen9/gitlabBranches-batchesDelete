@@ -1,8 +1,8 @@
 import fetch from 'node-fetch';
 import XLSX from 'xlsx';
 
-const accessToken = 'KxmbpRrx3Zs54ZfszuKX';
-const gitlabHost = 'git.ienglish.cn'; // 请将此处替换为实际的 GitLab 主机名
+const accessToken = 'XXXXXXX';
+const gitlabHost = 'git.XXXXXX.cn'; // 请将此处替换为实际的 GitLab 主机名
 
 async function deleteExpiredBranches(excelFilePath) {
     try {
