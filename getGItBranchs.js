@@ -1,7 +1,7 @@
 import fetch from 'node-fetch';
 import XLSX from 'xlsx';
 
-const accessToken = 'KxmbpRrx3Zs54ZfszuKX';
+const accessToken = 'XXXXXXX';
 
 async function getProjects(groupId) {
     const url = `http://git.ienglish.cn/api/v4/groups/${groupId}/projects?per_page=100&private_token=${accessToken}`;
